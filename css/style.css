@@ -21,7 +21,7 @@ h1, p, h2, li, a {
     padding-left: 2%;
     margin: 32px 0 32px 0;
 
-    background-color: darkturquoise;
+    background-color: #AA00FF;
 }
 nav {
     display: block;
@@ -30,7 +30,7 @@ nav {
     padding: 23px 0 22px 0;
     margin: 32px 0 32px 0;
 
-    background-color: firebrick;
+    background-color: #FF0000;
 }
 ul {
     list-style-type: none;
