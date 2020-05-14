@@ -7,6 +7,9 @@
 html {
     background-color: #1B1B1B;
 }
+main {
+    width: 100%;
+}
 
 h1, p, h2, li, a {
     font-family: 'Courier New', Courier, monospace;
@@ -20,8 +23,6 @@ h1, p, h2, li, a {
     float: left;
     padding-left: 2%;
     margin: 32px 0 32px 0;
-
-    background-color: #AA00FF;
 }
 nav {
     display: block;
@@ -29,8 +30,6 @@ nav {
     float: right;
     padding: 23px 0 22px 0;
     margin: 32px 0 32px 0;
-
-    background-color: #FF0000;
 }
 ul {
     list-style-type: none;
@@ -47,7 +46,7 @@ li {
     color: rgb(255, 255, 255);
 }
 .navi:hover {
-    color: rgb(0, 252, 0);
+    color: rgb(50, 255, 50);
 }
 .navi:active {
     color: rgb(127, 233, 127);
@@ -60,15 +59,13 @@ li {
     height: 2px;
     color: #FFFFFF; /* old IE */
     background-color: #FFFFFF; /* Modern Browsers */
-    border-radius: 100px;
+    border-radius: 10px;
     margin-bottom: 32px;
 }
 
-h1 {
+h1, h2, p {
     color: #FFFFFF;
-}
-p {
-    color: #FFFFFF;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 a {
