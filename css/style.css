@@ -5,13 +5,13 @@
 }
 
 html {
-    background-color: #1B1B1B;
+    background-color: #1D1D1D;
 }
 main {
     width: 100%;
 }
 
-h1, p, h2, li, a {
+h1, p, h2, li, a, footer {
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -34,11 +34,9 @@ nav {
 ul {
     list-style-type: none;
 }
-li {
+.navi {
     float: right;
     padding: 0 4% 0 2%;
-}
-.navi {
     color: rgb(133, 133, 133);
     font-size: 200%;
 }
@@ -69,11 +67,19 @@ h1, h2, p {
 }
 
 a {
-    color: rgb(208, 106, 255);
+    color: rgb(0, 217, 255);
 }
 a:hover {
-    color: rgb(255, 0, 200);
+    color: rgb(176, 115, 255);
 }
 a:active {
-    color: rgb(153, 81, 93);
+    color: rgb(136, 177, 255);
+}
+
+footer {
+    width: 100%;
+    color: rgb(155, 155, 155);
+    text-align: center;
+    font-size: 175%;
+    margin-bottom: 20px;
 }
