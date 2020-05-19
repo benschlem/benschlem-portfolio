@@ -1,3 +1,9 @@
-main {
-    background-color: darkred;
+iframe {
+    margin: 32px 15% 32px 15%;
+    width: 70%;
+    height: 120%;
+}
+#res {
+    margin-left: 15%;
+    font-size: 170%;
 }
